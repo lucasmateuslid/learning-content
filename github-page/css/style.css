@@ -17,19 +17,28 @@
   color: #d3dce6;
 }
 .bgwhite{
-  color: #fefefe;
+  background-color: #fefefe;
 }
 .bgblack{
-  color: #222;
+  background-color: #222;
 }
 .bggreen{
- color: #30C844 ;
+ background-color: #30C844 ;
 }
 .bggray{
-  color: #CCC;
+  background-color: #CCC;
 }
 .bglightgray{
-  color: #d3dce6;
+  background-color: #d3dce6;
 }
 
 /* Estrutura */
+.mainpage {
+  width: 1366px;
+  margin: 50px auto;
+}
+
+img.img-logo {
+  max-width: 70px;
+  padding: 5px 10px;
+}
