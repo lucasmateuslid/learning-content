@@ -50,6 +50,7 @@ header {
   max-height: 120px;
   margin: 15px 40px;
   padding-top: 40px;
+  position: relative;
 }
   /* Logo and nav */
     img.img-logo {
@@ -69,8 +70,15 @@ header {
     }
   /* Header Login */
     .header-login{
-      float: right;
+      display: inline-block;
+      position: absolute;
+      top: 52px;
+      right: 45px;
     }
     .search-pin img{
-      max-width: 15px;
+      width: 25px;
+      float: left;
+    }
+    .sign {
+      padding: 8px  ;
     }
