@@ -1,11 +1,17 @@
 /* font-family: 'Inter', sans-serif; */
-
+/* Config */
+body{
+   font-family: 'Inter', sans-serif;
+ }
+ .clear{
+   clear: both;
+ }
 /* Cores e backgrounds */
 .white{
   color: #fefefe;
 }
 .black{
-  color: #222;
+  color: #000;
 }
 .green{
  color: #30C844 ;
@@ -20,7 +26,7 @@
   background-color: #fefefe;
 }
 .bgblack{
-  background-color: #222;
+  background-color: #000;
 }
 .bggreen{
  background-color: #30C844 ;
@@ -36,9 +42,35 @@
 .mainpage {
   width: 1366px;
   margin: 50px auto;
+  border-radius: 2px;
 }
 
-img.img-logo {
-  max-width: 70px;
-  padding: 5px 10px;
+/* COnfig do header */
+header {
+  max-height: 120px;
+  margin: 15px 40px;
+  padding-top: 40px;
 }
+  /* Logo and nav */
+    img.img-logo {
+      max-width: 50px;
+      float: left;
+      display: inline-block;
+    }
+    nav {
+      margin-left: 45px;
+
+    }
+    nav ul li {
+      list-style-type: none;
+      text-decoration: none;
+      margin: 10px;
+      display: inline;
+    }
+  /* Header Login */
+    .header-login{
+      float: right;
+    }
+    .search-pin img{
+      max-width: 15px;
+    }
