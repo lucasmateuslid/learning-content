@@ -1,0 +1,35 @@
+/* font-family: 'Inter', sans-serif; */
+
+/* Cores e backgrounds */
+.white{
+  color: #fefefe;
+}
+.black{
+  color: #222;
+}
+.green{
+ color: #30C844 ;
+}
+.gray{
+  color: #CCC;
+}
+.lightgray{
+  color: #d3dce6;
+}
+.bgwhite{
+  color: #fefefe;
+}
+.bgblack{
+  color: #222;
+}
+.bggreen{
+ color: #30C844 ;
+}
+.bggray{
+  color: #CCC;
+}
+.bglightgray{
+  color: #d3dce6;
+}
+
+/* Estrutura */
