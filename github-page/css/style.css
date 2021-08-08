@@ -45,16 +45,23 @@ body{
   border-radius: 2px;
 }
 
+.heading1 {
+  font-weight: 900;
+  line-height: 140%;
+  font-size: 44px;
+  font-weight: 900git;
+}
+
 /* COnfig do header */
 header {
   max-height: 120px;
-  margin: 15px 40px;
-  padding-top: 40px;
+  margin: 15px 70px;
+  padding-top: 50px;
   position: relative;
 }
   /* Logo and nav */
     img.img-logo {
-      max-width: 50px;
+      max-width: 45px;
       float: left;
       display: inline-block;
     }
@@ -89,3 +96,22 @@ header {
       color: #000;
 
     }
+
+    /* Section */
+    .body-section {
+
+      max-width: 1080px;
+      margin: 80px auto 0px auto;
+    }
+
+    .dropdown-caret-ico img{
+      max-width: 12px;
+    }
+      /*Section left area */
+
+        h1.text-left {
+          width: 120px;
+        }
+
+
+
