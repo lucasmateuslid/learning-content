@@ -7,6 +7,9 @@ body{
    clear: both;
  }
 /* Cores e backgrounds */
+.blue{
+  color: #1F80EE;
+}
 .white{
   color: #fefefe;
 }
@@ -21,6 +24,9 @@ body{
 }
 .lightgray{
   color: #d3dce6;
+}
+.bgblue{
+  background-color: #1F80EE;
 }
 .bgwhite{
   background-color: #fefefe;
@@ -43,6 +49,8 @@ body{
   width: 1366px;
   margin: 50px auto;
   border-radius: 2px;
+      background: #fefefe url(../imgs/flux1.png) no-repeat 35em 5em;
+      background-size: 20rem ;
 }
 
 .heading1 {
@@ -80,7 +88,7 @@ header {
       display: inline-block;
       position: absolute;
       top: 52px;
-      right: 45px;
+      right: 1px;
     }
     .search-pin img{
       width: 25px;
@@ -100,18 +108,82 @@ header {
     /* Section */
     .body-section {
 
-      max-width: 1080px;
+      height: 650px;
+      max-width: 960px;
       margin: 80px auto 0px auto;
+      position: relative;
+
+    }
+    .section-left{
+      padding-bottom: 20px;
     }
 
     .dropdown-caret-ico img{
       max-width: 12px;
     }
       /*Section left area */
+          h1.text-left {
+          width: 300px;
+          }
+          .text-area{
+            width: 360px;
+          }
+            /* Sub Area */
 
-        h1.text-left {
-          width: 120px;
+              .area-low-down{
+                margin-top: 15px;
+              }
+              .area-enterprise-text{
+                margin: 80px;
+              }
+              .tiitle-box{
+                display: inline;
+              }
+              .text-box{
+                width: 220px;
+              }
+              .text-area h3{
+                font-weight:  bold;
+                font-size: 26px;
+                line-height: 140%;
+
+              }
+              .img-box{
+                position: absolute;
+                left: 1px;
+                margin-right: 30px;
+                display: inline-block;
+              }
+              .img-box img{
+                width: 60px;
+              }
+              img.right-arrow{
+                width: 20px;
+                position: absolute;
+                margin-left: 5px ;
+              }
+
+              .area-low-down a{
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 160%;
+              }
+
+
+      /* Section rigt area */
+        .section-right{
+          position: absolute;
+          right: 20px;
+          top: 10px;
+          width: 500;
+
         }
 
-
-
+        .section-right input {
+          display: block;
+          padding: 8px 20px;
+          margin: 10px;
+          border: transparent;
+          border-bottom: 1px solid #ccc;
+        }
