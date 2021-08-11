@@ -180,6 +180,7 @@ header {
 
       /* Section rigt area */
         .section-right{
+
           position: absolute;
           right: -60px;
           top: 10px;
@@ -187,10 +188,14 @@ header {
 
         }
         .mainform{
+          background: url(../imgs/tree-git.png) no-repeat 0.1em 1.5em;
+          background-size: 3.2em;
           box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 30px 30px 30px 0 rgba(0, 0, 0, 0.06);
           padding: 20px;
+          padding-left: 60px;
           height: 460px;
           width: 280px;
+
         }
         .mainform h2{
           font-size: 21px;
@@ -226,7 +231,7 @@ header {
         .privacy-political {
           width: 230px;
           float: right;
-          margin-right: 110px;
+          margin-right: 70px;
           font-size: 10px;
           line-height: 160%;
           color: rgb(111, 111, 111);
@@ -241,6 +246,7 @@ header {
             float: right;
             margin-top: 0px;
             margin-right: 30px;
+            margin-bottom: 0px;
           }
           #submitform:hover{
             color: #30C844;
