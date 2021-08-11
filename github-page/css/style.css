@@ -152,6 +152,9 @@ header {
               .tiitle-box{
                 display: inline;
               }
+              .tiitle-box h3{
+                display: inline;
+              }
               .text-box{
                 width: 220px;
               }
