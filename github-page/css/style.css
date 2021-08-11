@@ -89,6 +89,7 @@ header {
       position: absolute;
       top: 52px;
       right: 1px;
+      cursor: pointer;
     }
     .search-pin img{
       width: 25px;
@@ -109,7 +110,7 @@ header {
     .body-section {
 
       height: 650px;
-      max-width: 960px;
+      max-width: 1080px;
       margin: 80px auto 0px auto;
       position: relative;
 
@@ -174,16 +175,51 @@ header {
       /* Section rigt area */
         .section-right{
           position: absolute;
-          right: 20px;
+          right: 1px;
           top: 10px;
-          width: 500;
+          width: 400;
 
         }
 
         .section-right input {
           display: block;
-          padding: 8px 20px;
+          padding: 8px 30px;
           margin: 10px;
           border: transparent;
           border-bottom: 1px solid #ccc;
         }
+
+        .input-subtitle {
+          width: 240px;
+          font-size: 10px;
+          line-height: 160%;
+          float: right;
+          color: rgb(111, 111, 111);
+          margin-right: 10px;
+        }
+        .input-subtitle a{
+          display: block;
+          color: rgb(111, 111, 111);
+        }
+
+        .privacy-political {
+          width: 230px;
+          font-size: 10px;
+          line-height: 160%;
+          color: rgb(111, 111, 111);
+        }
+        /* Submit Input */
+          #submitform{
+            background-color: #30C844;
+            color: #fefefe;
+            padding: 20px 60px;
+            width: 230px;
+            cursor: pointer;
+          }
+          #submitform:hover{
+            color: #30C844;
+            background-color: #fefefe;
+            padding: 19px 59px;
+            width: 229px;
+            border: 1px solid #30C844;
+          }
