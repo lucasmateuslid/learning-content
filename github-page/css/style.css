@@ -1,5 +1,5 @@
-/* font-family: 'Inter', sans-serif; */
 /* Config */
+  /* font-family: 'Inter', sans-serif; */
 body{
    font-family: 'Inter', sans-serif;
  }
@@ -7,42 +7,33 @@ body{
    clear: both;
  }
 /* Cores e backgrounds */
-.blue{
-  color: #1F80EE;
-}
-.white{
-  color: #fefefe;
-}
-.black{
-  color: #000;
-}
-.green{
- color: #30C844 ;
-}
-.gray{
-  color: #CCC;
-}
-.lightgray{
-  color: #d3dce6;
-}
-.bgblue{
-  background-color: #1F80EE;
-}
-.bgwhite{
-  background-color: #fefefe;
-}
-.bgblack{
-  background-color: #000;
-}
-.bggreen{
- background-color: #30C844 ;
-}
-.bggray{
-  background-color: #CCC;
-}
-.bglightgray{
-  background-color: #d3dce6;
-}
+    .blue{
+      color: #1F80EE;
+    }
+    .white{
+      color: #fefefe;
+    }
+    .black{
+      color: #000;
+    }
+    .green{
+    color: #30C844 ;
+    }
+    .bgwhite{
+      background-color: #fefefe;
+    }
+    .bgblack{
+      background-color: #000;
+    }
+    .bggreen{
+    background-color: #30C844 ;
+    }
+    .bggray{
+      background-color: #CCC;
+    }
+    .bglightgray{
+      background-color: #d3dce6;
+    }
 
 /* Estrutura */
 .mainpage {
@@ -54,7 +45,7 @@ body{
 }
 
 
-/* COnfig do header */
+/* Config do header */
 header {
   max-height: 120px;
   margin: 15px 70px;
@@ -83,7 +74,7 @@ header {
   /* Header Login */
     .header-login{
       position: absolute;
-      top: 52px;
+      top: 60px;
       right: 1px;
       cursor: pointer;
     }
@@ -94,6 +85,7 @@ header {
     }
     .sign {
       padding: 15px 25px  ;
+      margin-left: 5px;
     }
     .btnblack:hover{
       padding: 15px 25px  ;
@@ -102,10 +94,10 @@ header {
       color: #000;
 
     }
-
+  /* - X - */
+/* Config Section */
     /* Section */
     .body-section {
-
       height: 650px;
       max-width: 1080px;
       margin: 80px auto 0px auto;
@@ -114,23 +106,13 @@ header {
       background-size: 14em;
 
     }
-    .section-left{
-      padding-bottom: 20px;
-
-    }
-
-
       /*Section left area */
           h1.text-left {
           width: 300px;
           line-height: 140%;
           font-size: 44px;
           font-weight: 900;
-
-          }
-
-          .section-left{
-            margin-left: 0px;
+          margin-bottom: 10px;
           }
           .text-elements{
             margin-left: 30px;
@@ -180,77 +162,77 @@ header {
 
       /* Section rigt area */
         .section-right{
-
           position: absolute;
           right: -60px;
           top: 10px;
           width: 400;
+        }
+        /* Form Config */
+            .mainform{
+              background: url(../imgs/tree-git.png) no-repeat 0.1em 1.5em;
+              background-size: 3.2em;
+              box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 30px 30px 30px 0 rgba(0, 0, 0, 0.06);
+              padding: 20px;
+              padding-left: 60px;
+              height: 460px;
+              width: 280px;
 
-        }
-        .mainform{
-          background: url(../imgs/tree-git.png) no-repeat 0.1em 1.5em;
-          background-size: 3.2em;
-          box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 30px 30px 30px 0 rgba(0, 0, 0, 0.06);
-          padding: 20px;
-          padding-left: 60px;
-          height: 460px;
-          width: 280px;
+            }
+            .mainform h2{
+              font-size: 21px;
+              font-weight: 800;
+              line-height: 160%;
+            }
+          .section-right input {
+            display: block;
+            padding: 8px ;
+            padding-right: 60px;
+            margin: 30px;
+            margin-left: 0px;
+            border: transparent;
+            border-bottom: 1px solid #ccc;
+          }
 
-        }
-        .mainform h2{
-          font-size: 21px;
-          font-weight: 800;
-          line-height: 160%;
-        }
-        .section-right input {
-          display: block;
-          padding: 8px ;
-          padding-right: 60px;
-          margin: 30px;
-          margin-left: 0px;
-          border: transparent;
-          border-bottom: 1px solid #ccc;
-        }
-        .input-subtitle {
-          width: 240px;
-          font-size: 10px;
-          line-height: 160%;
-          float: right;
-          color: rgb(111, 111, 111);
-          margin-right: 30px;
-          margin-top: 0px;
-        }
-        .input-subtitle a{
-          display: block;
-          color: rgb(111, 111, 111);
-        }
-        input.lastinput{
-          margin-bottom: 18px;
-        }
-
-        .privacy-political {
-          width: 230px;
-          float: right;
-          margin-right: 70px;
-          font-size: 10px;
-          line-height: 160%;
-          color: rgb(111, 111, 111);
-        }
-        /* Submit Input */
-          #submitform{
-            background-color: #30C844;
-            color: #fefefe;
-            padding: 20px 60px;
-            width: 270px;
-            cursor: pointer;
+          .input-subtitle {
+            width: 240px;
+            font-size: 10px;
+            line-height: 160%;
             float: right;
+            color: rgb(111, 111, 111);
+            margin-right: 39px;
             margin-top: 0px;
-            margin-right: 30px;
-            margin-bottom: 0px;
           }
-          #submitform:hover{
-            color: #30C844;
-            background-color: #fefefe;
-            width: 270px;
-            border: 1px solid #30C844;
+          .input-subtitle a{
+            display: block;
+            color: rgb(111, 111, 111);
           }
+          input.lastinput{
+            margin-bottom: 18px;
+          }
+
+          .privacy-political {
+            width: 230px;
+            float: right;
+            margin-right: 70px;
+            font-size: 10px;
+            line-height: 160%;
+            color: rgb(111, 111, 111);
+          }
+          /* Submit Input */
+            #submitform{
+              background-color: #30C844;
+              color: #fefefe;
+              padding: 20px 60px;
+              width: 270px;
+              cursor: pointer;
+              float: right;
+              margin-top: 0px;
+              margin-right: 30px;
+              margin-bottom: 0px;
+            }
+            #submitform:hover{
+              color: #30C844;
+              background-color: #fefefe;
+              width: 270px;
+              border: 1px solid #30C844;
+            }
