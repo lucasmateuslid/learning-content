@@ -1,11 +1,19 @@
-/* Config */
-  /* font-family: 'Inter', sans-serif; */
+/* BODY e MAINPAGE */
 body{
    font-family: 'Inter', sans-serif;
  }
  .clear{
    clear: both;
  }
+ /* Config do Mainpage */
+ .mainpage {
+  width: 1366px;
+  margin: 50px auto;
+  border-radius: 2px;
+      background: #fefefe url(../imgs/flux1.png) no-repeat 34em 5em;
+      background-size: 21rem ;
+}
+
 /* Cores e backgrounds */
     .blue{
       color: #1F80EE;
@@ -13,88 +21,73 @@ body{
     .white{
       color: #fefefe;
     }
-    .black{
-      color: #000;
-    }
-    .green{
-    color: #30C844 ;
-    }
     .bgwhite{
       background-color: #fefefe;
     }
     .bgblack{
       background-color: #000;
     }
-    .bggreen{
-    background-color: #30C844 ;
-    }
-    .bggray{
-      background-color: #CCC;
-    }
     .bglightgray{
       background-color: #d3dce6;
     }
 
-/* Estrutura */
-.mainpage {
-  width: 1366px;
-  margin: 50px auto;
-  border-radius: 2px;
-      background: #fefefe url(../imgs/flux1.png) no-repeat 35em 5em;
-      background-size: 20rem ;
-}
 
 
-/* Config do header */
-header {
-  max-height: 120px;
-  margin: 15px 70px;
-  padding-top: 50px;
-  position: relative;
-}
-  /* Logo and nav */
-    img.img-logo {
-      max-width: 45px;
-      float: left;
+/* HEADER */
+  #header {
+    max-height: 120px;
+    margin: 15px 70px;
+    padding-top: 50px;
+    position: relative;
+  }
+    /* Logo and nav */
+      img.img-logo {
+        max-width: 45px;
+        float: left;
 
-    }
-    nav {
-      margin-left: 45px;
+      }
+      .header-navlist {
+        margin-left: 65px;
 
-    }
-    nav ul li {
-      list-style-type: none;
-      text-decoration: none;
-      margin: 10px;
-      display: inline;
-    }
-    .dropdown-caret-ico img{
-      max-width: 12px;
-    }
-  /* Header Login */
-    .header-login{
-      position: absolute;
-      top: 60px;
-      right: 1px;
-      cursor: pointer;
-    }
+      }
+      .header-navlist ul li {
+        list-style-type: none;
+        text-decoration: none;
+        margin: 10px;
+        display: inline;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 160%;
+      }
+      .dropdown-caret-ico img{
+        max-width: 12px;
+      }
+    /* Header Login */
+      .header-login{
+        position: absolute;
+        top: 60px;
+        right: 1px;
+        cursor: pointer;
+      }
 
-    .search-pin img{
-      width: 25px;
-      float: left;
-    }
-    .sign {
-      padding: 15px 25px  ;
-      margin-left: 5px;
-    }
-    .btnblack:hover{
-      padding: 15px 25px  ;
-      border: 1px solid black;
-      background-color: #fefefe;
-      color: #000;
+      .search-pin img{
+        width: 25px;
+        float: left;
+      }
+      .sign {
+        padding: 15px 25px  ;
+        margin-left: 5px;
+      }
+      .btnblack:hover{
+        padding: 15px 25px  ;
+        border: 1px solid black;
+        background-color: #fefefe;
+        color: #000;
 
-    }
+      }
   /* - X - */
+
+
 /* Config Section */
     /* Section */
     .body-section {
@@ -102,11 +95,12 @@ header {
       max-width: 1080px;
       margin: 80px auto 0px auto;
       position: relative;
-      background: url(../imgs/flux2.png) no-repeat -2em 16em;
-      background-size: 14em;
+      background: url(../imgs/flux2.png) no-repeat -2em 18.5em;
+      background-size: 12em;
 
     }
       /*Section left area */
+
           h1.text-left {
           width: 300px;
           line-height: 140%;
@@ -117,25 +111,32 @@ header {
           .text-elements{
             margin-left: 30px;
           }
+          .text-area p{
+            font-size: 16px;
+            line-height: 140%;
+
+          }
           .text-area{
             width: 360px;
           }
             /* Sub Area */
 
-              .area-low-down{
 
+              .area-low-down{
+                margin-top: 100px;
                 margin-left: 120px;
+              }
+              .area-low-down a{
+                text-decoration: none;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 160%;
               }
               .area-enterprise-text{
                 margin: 80px;
               }
              .text-box{
                 width: 220px;
-              }
-              .text-area p{
-                font-size: 16px;
-                line-height: 140%;
-
               }
               .img-box{
                 position: absolute;
@@ -152,12 +153,7 @@ header {
                 margin-left: 5px ;
               }
 
-              .area-low-down a{
-                text-decoration: none;
-                font-weight: 700;
-                font-size: 14px;
-                line-height: 160%;
-              }
+
 
 
       /* Section rigt area */
@@ -183,56 +179,56 @@ header {
               font-weight: 800;
               line-height: 160%;
             }
-          .section-right input {
-            display: block;
-            padding: 8px ;
-            padding-right: 60px;
-            margin: 30px;
-            margin-left: 0px;
-            border: transparent;
-            border-bottom: 1px solid #ccc;
-          }
+            .mainform input {
+              display: block;
+              padding: 8px ;
+              padding-right: 60px;
+              margin: 30px;
+              margin-left: 0px;
+              border: transparent;
+              border-bottom: 1px solid #ccc;
+            }
 
-          .input-subtitle {
-            width: 240px;
-            font-size: 10px;
-            line-height: 160%;
-            float: right;
-            color: rgb(111, 111, 111);
-            margin-right: 39px;
-            margin-top: 0px;
-          }
-          .input-subtitle a{
-            display: block;
-            color: rgb(111, 111, 111);
-          }
-          input.lastinput{
-            margin-bottom: 18px;
-          }
-
-          .privacy-political {
-            width: 230px;
-            float: right;
-            margin-right: 70px;
-            font-size: 10px;
-            line-height: 160%;
-            color: rgb(111, 111, 111);
-          }
-          /* Submit Input */
-            #submitform{
-              background-color: #30C844;
-              color: #fefefe;
-              padding: 20px 60px;
-              width: 270px;
-              cursor: pointer;
+            .input-subtitle {
+              width: 240px;
+              font-size: 10px;
+              line-height: 160%;
               float: right;
+              color: rgb(111, 111, 111);
+              margin-right: 39px;
               margin-top: 0px;
-              margin-right: 30px;
-              margin-bottom: 0px;
             }
-            #submitform:hover{
-              color: #30C844;
-              background-color: #fefefe;
-              width: 270px;
-              border: 1px solid #30C844;
+            .input-subtitle a{
+              display: block;
+              color: rgb(111, 111, 111);
             }
+            input.lastinput{
+              margin-bottom: 18px;
+            }
+
+            /* Submit Input */
+                #submitform{
+                  background-color: #30C844;
+                  color: #fefefe;
+                  padding: 20px 60px;
+                  width: 270px;
+                  cursor: pointer;
+                  float: right;
+                  margin-top: 0px;
+                  margin-right: 30px;
+                  margin-bottom: 0px;
+                }
+                #submitform:hover{
+                  color: #30C844;
+                  background-color: #fefefe;
+                  width: 270px;
+                  border: 1px solid #30C844;
+                }
+                .privacy-political {
+                  width: 230px;
+                  float: right;
+                  margin-right: 70px;
+                  font-size: 10px;
+                  line-height: 160%;
+                  color: rgb(111, 111, 111);
+                }
