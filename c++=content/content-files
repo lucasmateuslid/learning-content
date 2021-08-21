@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+
+
+// Inicio de aprendizagem c++
+int main (){
+  cout << "hello world!" << '\n';
+  return 0
+}
