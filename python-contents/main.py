@@ -116,7 +116,7 @@ inverseValue()
 # Parte 2 -
 
 # Questão 01 - PT2
-
+"""
 xplate = input("Qual o Prato escolhido?: ")
 yplate = input("Qual a sobremesa escolhida?: ")
 xdrink = input("Qual a bebida?: ")
@@ -201,7 +201,7 @@ def restorant():
     return()
 
     restorant()
-
+"""
 
 # Questão 02 - PT2
 """
@@ -220,27 +220,137 @@ shNumber(number)
 
 # Questão 03 - PT2
 """
+dayNumber = int(input("Digite um numero de 1 a 7: "))
+def dayNNumber(dayNumber):
+    if (dayNumber == 1):
+        print("Domingo")
+    elif (dayNumber == 2):
+        print("Segunda-Feira")
+
+    elif (dayNumber == 3):
+        print("Terça-Feira")
+
+    elif (dayNumber == 4):
+        print("Quarta-Feira")
+
+    elif (dayNumber == 5):
+        print("Quinta-Feira")
+
+    elif (dayNumber == 6):
+        print("Sexta-Feira")
+
+    elif (dayNumber == 7):
+        print("Sabado")
+
+    else:
+        print("Numero inferior ou superior a sequencia determinada...")
+
+    return
+
+dayNNumber(dayNumber)
+"""
+# Questão 04 - PT2
+"""
 vA = float(input("Digite um numero para A: "))
 vB = float(input("Digite um numero para B: "))
 vC = float(input("Digite um numero para C: "))
 
 def rarestValue(vA,vB,vC):
-    if (vA > vB and vB > vC):
-        print("Os valores maiores são respectivamente: ")
+    if ((vA > vB) and (vB > vC)):
+        print("Os valores maiores são respectivamente;")
+        print("A: ", vA)
+        print("B", vB)
+        print("C: ", vC)
 
-    elif (vB > vA and vA > vC):
-        print("Os valores maiores são respectivamente: ", vB, vA, vC)
+    elif ((vA > vC) and (vC > vB)):
+        print("Os valores maiores são respectivamente;")
+        print("A: ", vA)
+        print("C", vC)
+        print("B: ", vB)
 
-    elif (vC > vA and vA > vB):
-        print("Os valores maiores são respectivamente: ", vC, vA, vB)
+    elif((vB > vC) and (vC > vA)):
+        print("Os valores maiores são respectivamente;")
+        print("B: ", vB)
+        print("C", vC)
+        print("A: ", vA)
 
-    elif (vB > vC and vC > vA):
-        print("Os valores maiores são respectivamente: ", vB, vC, vA)
+    elif((vB > vA) and (vA > vC)):
+        print("Os valores maiores são respectivamente;")
+        print("B: ", vB)
+        print("A", vA)
+        print("C: ", vC)
+
+    elif((vC > vA) and (vA > vB)):
+        print("Os valores maiores são respectivamente;")
+        print("C: ", vC)
+        print("A", vA)
+        print("B: ", vB)
+
+    elif((vC > vB) and (vB > vA)):
+        print("Os valores maiores são respectivamente;")
+        print("C: ", vC)
+        print("B", vB)
+        print("A: ", vA)
 
     else:
-        print("os valores são iguais")
-
+        print("Os valores são iguais", vA, vB, vC)
+        
     return
 
 rarestValue(vA, vB, vC)
 """
+"""
+# Questão 05 - PT2
+xA = float(input("Digite um numero para A: "))
+xB = float(input("Digite um numero para B: "))
+xC = float(input("Digite um numero para C: "))
+
+
+def lowestValue(vA, vB, vC):
+    if ((xA > xB) and (xB > xC)):
+        print("Os valores menores são respectivamente;")
+        print("C: ", xC)
+        print("B", xB)
+        print("A: ", xA)
+
+    elif ((xA > xC) and (xC > xB)):
+        print("Os valores menores são respectivamente;")
+        print("B: ", xB)
+        print("C", xC)
+        print("A: ", xA)
+
+    elif ((xB > xC) and (xC > xA)):
+        print("Os valores menores são respectivamente;")
+        print("A: ", xA)
+        print("C", xC)
+        print("B: ", xB)
+
+    elif ((xB > xA) and (xA > xC)):
+        print("Os valores menores são respectivamente;")
+        print("C: ", xC)
+        print("A", xA)
+        print("B: ", xB)
+
+    elif ((xC > xA) and (xA > xB)):
+        print("Os valores menores são respectivamente;")
+        print("B: ", xB)
+        print("A", xA)
+        print("C: ", xC)
+
+    elif ((xC > xB) and (xB > xA)):
+        print("Os valores menores são respectivamente;")
+        print("A: ", xA)
+        print("B", xB)
+        print("C: ", xC)
+
+    else:
+        print("Os valores são iguais", xA, xB, xC)
+
+    return
+
+
+lowestValue(xA, xB, xC)
+"""
+
+# Questão 06 - PT2
+
