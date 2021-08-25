@@ -1,6 +1,6 @@
 import math
 
-"""
+
 ## Questão 01
 print("Questão 01 - Calculadora de Média ponderada de Notas!")
 print()
@@ -86,125 +86,22 @@ def xeyCalculator():
     resp1 = (((x2 - x1 ) ** 2) + ((y2 - y1 ) ** 2))
     raizXey = math.pow(resp1, 1/2)
 
-    print()
+    print(raizXey)
     print()
     print()
     return
 
 xeyCalculator()
-"""
+
 ## Questão 05
-"""
-xAb = input("Digite o que você quiser para o valor de A: ")
-yBa = input("Digite um numero inteiro para o valor de B: "))
-
-def inverseValue():
-
-
-    print(yba.replace(xAb, yba))
-    ##Disponibilizar variaves que trocam valores entre si
-
-
-
-    return
-
-inverseValue()
-"""
-
 
 
 # Parte 2 -
 
-# Questão 01 - PT2
-"""
-xplate = input("Qual o Prato escolhido?: ")
-yplate = input("Qual a sobremesa escolhida?: ")
-xdrink = input("Qual a bebida?: ")
-def restorant():
 
-
-    def pricipalPlate(xplate):
-        xvegetary = ("Vegetariano", "vegetariano", "VEGETARIANO")
-        xfish = ("PEIXE", "Peixe", "peixe")
-        xchicken = ("FRANGO", "Frango", "frango")
-        xmeat = ("CARNE", "Carne", "carne")
-
-
-        if (xplate == xvegetary):
-            xplateValue = 180
-            print("Prato Registrado com Sucesso, Prossiga para sobremesa...")
-
-        elif (xplate ==  xfish):
-            xplateValue = 230
-            print("Prato Registrado com Sucesso, Prossiga para sobremesa...")
-        elif (xplate == xchicken) :
-            xplateValue = 250
-            print("Prato Registrado com Sucesso, Prossiga para sobremesa...")
-        elif (xplate == xmeat):
-            xplateValue = 350
-            print("Prato Registrado com Sucesso, Prossiga para sobremesa...")
-        else:
-            print("O prato escolhido não consta no banco de dados")
-
-        return (xplate)
-
-    def dessertPlate(yplate):
-        yAbacaxi = ("Abacaxi", "ABACAXI", "abacaxi")
-        ySorvete = ("Sorvete", "SORVETE", "sorvete")
-        yMousse = ("Mousse", "MOUSSE", "mousse")
-        yMousseC = ("Mousse de Chocolate", "MOUSSE DE CHOCOLATE", "mousse de chocolate")
-
-        if (yplate == "Abacaxi" or yplate == "ABACAXI" or yplate == "abacaxi") :
-            yplateValue =   75
-            print("A Sobremesa foi Registrada com Sucesso, Prossiga para a bebida...")
-        elif (yplate == ySorvete) :
-            yplateValue = 110
-            print("A Sobremesa foi Registrada com Sucesso, Prossiga para a bebida...")
-        elif (yplate == yMousse) :
-            yplateValue = 170
-            print("A Sobremesa foi Registrada com Sucesso, Prossiga para a bebida...")
-        elif (yplate == yMousseC) :
-            yplateValue = 200
-            print("A Sobremesa foi Registrada com Sucesso, Prossiga para a bebida...")
-        else :
-            print("A sobremesa não consta no banco de dados")
-
-        return (yplate)
-
-    def drinkChoice(xdrink):
-        zTea = ("Chá", "Cha", "CHÁ", "CHA", "chá", "cha")
-        zJuice = ("Suco de Laranja", "SUCO DE LARANJA", "suco de laranja")
-        zMelonJuice = ("Suco de Melão", "Suco de Melao", "SUCO DE MELÃO", "SUCO DE MELAO", "suco de melão", "suco de melao")
-        zSoda = ("Refrigerante", "REFRIGERANTE", "refrigerante")
-
-        if (xdrink == zTea):
-            xdrinkValue = 20
-
-        elif (xdrink == zJuice):
-            xdrinkValue = 70
-
-        elif (xdrink == zMelonJuice):
-            xdrinkValue = 100
-
-        elif (xdrink == zSoda):
-            xdrinkValue = 65
-
-        else:
-            print("A bebida escolhida não consta no banco de dados")
-
-        return (xdrink)
-
-    iTotalKCal = (xdrinkValue + yplateValue + xplateValue)
-
-
-
-    return()
-
-    restorant()
-"""
 
 # Questão 02 - PT2
-"""
+
 number = int(input("Digite um numero: "))
 
 def shNumber(number):
@@ -216,10 +113,10 @@ def shNumber(number):
 
 shNumber(number)
 
-"""
+
 
 # Questão 03 - PT2
-"""
+
 dayNumber = int(input("Digite um numero de 1 a 7: "))
 def dayNNumber(dayNumber):
     if (dayNumber == 1):
@@ -248,9 +145,9 @@ def dayNNumber(dayNumber):
     return
 
 dayNNumber(dayNumber)
-"""
+
 # Questão 04 - PT2
-"""
+
 vA = float(input("Digite um numero para A: "))
 vB = float(input("Digite um numero para B: "))
 vC = float(input("Digite um numero para C: "))
@@ -298,8 +195,7 @@ def rarestValue(vA,vB,vC):
     return
 
 rarestValue(vA, vB, vC)
-"""
-"""
+
 # Questão 05 - PT2
 xA = float(input("Digite um numero para A: "))
 xB = float(input("Digite um numero para B: "))
@@ -350,7 +246,7 @@ def lowestValue(vA, vB, vC):
 
 
 lowestValue(xA, xB, xC)
-"""
+
 
 # Questão 06 - PT2
 """
