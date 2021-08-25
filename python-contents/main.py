@@ -353,4 +353,63 @@ lowestValue(xA, xB, xC)
 """
 
 # Questão 06 - PT2
+"""
+booName = input("Digite o nome de usuario: ")
+booAge = int(input("Digite a idade: "))
+booConfirm = input("Você concorda com os termos de usuarios e confirma ser mairo de 18 ano(+18)? ")
+def booleanAge(booName, booAge, booConfirm):
+    if((booAge >= 18) and (booConfirm == "sim")):
+        print("Verdade")
+
+
+    elif((booAge < 18) and (booConfirm == "nao")):
+        print("verdade")
+
+    elif((booAge >= 18) and (booConfirm == "nao")):
+        print("Falso")
+
+    else:
+        print("falso")
+
+    return
+
+booleanAge(booName, booAge, booConfirm)
+
+"""
+
+# Questão 07 - PT2
+"""
+print("Digite sua sexualidade, responda com as abreviações;")
+inputSexuality = input("Feminino(F) / Masculino(M): ")
+
+def sexualideSelect(inputSexuality):
+    if (inputSexuality == "F"):
+        print("Solteira(SO)")
+        print("Casada(CS)")
+        print("Divorciada(DA")
+        print("Viúva(VV)")
+        civilStateF = input("Digite a sua sexualidade conforme a abreviatura:")
+        if (civilStateF == "CS"):
+            ageMarried = int(input("Digite quantos anos de casada: "))
+            print(ageMarried)
+            print("Dado computado")
+        else:
+            print("Dado computado")
+    else:
+        print("Solteiro(SO)")
+        print("Casado(CS)")
+        print("Divorciado(DA")
+        print("Viúvo(VV)")
+        civilStateM = input("Digite a sua sexualidade conforme a abreviatura: ")
+        print("Dado computado")
+
+    return
+
+sexualideSelect(inputSexuality)
+"""
+
+# Parte 03 -
+
+# Questão 01 - PT3
+
 
