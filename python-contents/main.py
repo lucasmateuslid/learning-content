@@ -113,13 +113,312 @@ reverseName(xAutB, xAutA)
 
 """
 
-"""
+
 # Parte 2 -
 
+# Questão 01 - PT1
 
+print("Escolha seu prato: ")
+print("""
+1- Vegetariano
+2- Peixe
+3- Frango
+4- Carne
+""")
+menuPlate = int(input("Insira o numero do prato: "))
+print("Escolha sua Sobremesa: ")
+print("""
+1- Abacaxi
+2- Sorvete (diet)
+3- Mousse (diet)
+4- Mousse de Chocolate
+""")
 
+menuDessert = int(input("Insira o numero da Sobremesa: "))
+
+print("Escolha sua Bebida: ")
+print("""
+1- Chá
+2- Suco de Laranja
+3- Suco de Melão
+4- Refrigerante (diet)
+""")
+
+menuDrink = int(input("Insira o numero da bebida: "))
+"""
+def menuChange(menuPlate, menuDessert, menuDrink):
+
+    if(menuPlate == 1):
+        if (menuDessert == 1):
+            if(menuDrink == 1):
+                calcT = (180 + 75 + 20)
+                print("O valor todas das calorias são: \n", calcT,"kcal")
+            elif(menuDrink == 2):
+                calcT = (180 + 75 + 70)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            elif(menuDrink == 3):
+                calcT = (180 + 75 + 100)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            elif(menuDrink == 4):
+                calcT = (180 + 75 + 65)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            else:
+                print("Nenhuma bebida escolhida")
+        elif(menuDessert == 2):
+            if(menuDrink == 1):
+                calcT = (180 + 110 + 20)
+                print("O valor todas das calorias são: \n", calcT,"kcal")
+            elif(menuDrink == 2):
+                calcT = (180 + 110 + 70)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            elif(menuDrink == 3):
+                calcT = (180 + 110 + 100)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            elif(menuDrink == 4):
+                calcT = (180 + 110 + 65)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            else:
+                print("Nenhuma bebida escolhida")
+        elif(menuDessert == 3):
+            if(menuDrink == 1):
+                calcT = (180 + 170 + 20)
+                print("O valor todas das calorias são: \n", calcT,"kcal")
+            elif(menuDrink == 2):
+                calcT = (180 + 170 + 70)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            elif(menuDrink == 3):
+                calcT = (180 + 170 + 100)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            elif(menuDrink == 4):
+                calcT = (180 + 170 + 65)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            else:
+                print("Nenhuma bebida escolhida")
+
+        elif(menuDessert == 4):
+            if(menuDrink == 1):
+                calcT = (180 + 200 + 20)
+                print("O valor todas das calorias são: \n", calcT,"kcal")
+            elif(menuDrink == 2):
+                calcT = (180 + 200 + 70)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            elif(menuDrink == 3):
+                calcT = (180 + 200 + 100)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            elif(menuDrink == 4):
+                calcT = (180 + 200 + 65)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            else:
+                print("Nenhuma bebida escolhida")
+
+        else:
+            print("Nenhuma sobremesa escolhida")
+
+    elif(menuPlate == 2):
+        if (menuDessert == 1):
+            if(menuDrink == 1):
+                calcT = (230 + 75 + 20)
+                print("O valor todas das calorias são: \n", calcT,"kcal")
+            elif(menuDrink == 2):
+                calcT = (230 + 75 + 70)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            elif(menuDrink == 3):
+                calcT = (230 + 75 + 100)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            elif(menuDrink == 4):
+                calcT = (230 + 75 + 65)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            else:
+                print("Nenhuma bebida escolhida")
+        elif(menuDessert == 2):
+            if(menuDrink == 1):
+                calcT = (230 + 110 + 20)
+                print("O valor todas das calorias são: \n", calcT,"kcal")
+            elif(menuDrink == 2):
+                calcT = (230 + 110 + 70)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            elif(menuDrink == 3):
+                calcT = (230 + 110 + 100)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            elif(menuDrink == 4):
+                calcT = (230 + 110 + 65)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            else:
+                print("Nenhuma bebida escolhida")
+        elif(menuDessert == 3):
+            if(menuDrink == 1):
+                calcT = (230 + 170 + 20)
+                print("O valor todas das calorias são: \n", calcT,"kcal")
+            elif(menuDrink == 2):
+                calcT = (230 + 170 + 70)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            elif(menuDrink == 3):
+                calcT = (230 + 170 + 100)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            elif(menuDrink == 4):
+                calcT = (230 + 170 + 65)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            else:
+                print("Nenhuma bebida escolhida")
+
+        elif(menuDessert == 4):
+            if(menuDrink == 1):
+                calcT = (230 + 200 + 20)
+                print("O valor todas das calorias são: \n", calcT,"kcal")
+            elif(menuDrink == 2):
+                calcT = (230 + 200 + 70)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            elif(menuDrink == 3):
+                calcT = (230 + 200 + 100)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            elif(menuDrink == 4):
+                calcT = (230 + 200 + 65)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            else:
+                print("Nenhuma bebida escolhida")
+
+        else:
+            print("Nenhuma sobremesa escolhida")
+
+    elif(menuPlate == 3):
+        if (menuDessert == 1):
+            if(menuDrink == 1):
+                calcT = (259 + 75 + 20)
+                print("O valor todas das calorias são: \n", calcT,"kcal")
+            elif(menuDrink == 2):
+                calcT = (250 + 75 + 70)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            elif(menuDrink == 3):
+                calcT = (250 + 75 + 100)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            elif(menuDrink == 4):
+                calcT = (250 + 75 + 65)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            else:
+                print("Nenhuma bebida escolhida")
+        elif(menuDessert == 2):
+            if(menuDrink == 1):
+                calcT = (250 + 110 + 20)
+                print("O valor todas das calorias são: \n", calcT,"kcal")
+            elif(menuDrink == 2):
+                calcT = (250 + 110 + 70)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            elif(menuDrink == 3):
+                calcT = (250 + 110 + 100)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            elif(menuDrink == 4):
+                calcT = (250 + 110 + 65)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            else:
+                print("Nenhuma bebida escolhida")
+        elif(menuDessert == 3):
+            if(menuDrink == 1):
+                calcT = (250 + 170 + 20)
+                print("O valor todas das calorias são: \n", calcT,"kcal")
+            elif(menuDrink == 2):
+                calcT = (250 + 170 + 70)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            elif(menuDrink == 3):
+                calcT = (250 + 170 + 100)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            elif(menuDrink == 4):
+                calcT = (250 + 170 + 65)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            else:
+                print("Nenhuma bebida escolhida")
+
+        elif(menuDessert == 4):
+            if(menuDrink == 1):
+                calcT = (250 + 200 + 20)
+                print("O valor todas das calorias são: \n", calcT,"kcal")
+            elif(menuDrink == 2):
+                calcT = (250 + 200 + 70)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            elif(menuDrink == 3):
+                calcT = (250 + 200 + 100)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            elif(menuDrink == 4):
+                calcT = (250 + 200 + 65)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            else:
+                print("Nenhuma bebida escolhida")
+
+        else:
+            print("Nenhuma sobremesa escolhida")
+    elif(menuPlate == 4):
+        if (menuDessert == 1):
+            if(menuDrink == 1):
+                calcT = (350 + 75 + 20)
+                print("O valor todas das calorias são: \n", calcT,"kcal")
+            elif(menuDrink == 2):
+                calcT = (350 + 75 + 70)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            elif(menuDrink == 3):
+                calcT = (350 + 75 + 100)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            elif(menuDrink == 4):
+                calcT = (350 + 75 + 65)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            else:
+                print("Nenhuma bebida escolhida")
+        elif(menuDessert == 2):
+            if(menuDrink == 1):
+                calcT = (350 + 110 + 20)
+                print("O valor todas das calorias são: \n", calcT,"kcal")
+            elif(menuDrink == 2):
+                calcT = (350 + 110 + 70)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            elif(menuDrink == 3):
+                calcT = (350 + 110 + 100)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            elif(menuDrink == 4):
+                calcT = (350 + 110 + 65)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            else:
+                print("Nenhuma bebida escolhida")
+        elif(menuDessert == 3):
+            if(menuDrink == 1):
+                calcT = (350 + 170 + 20)
+                print("O valor todas das calorias são: \n", calcT,"kcal")
+            elif(menuDrink == 2):
+                calcT = (350 + 170 + 70)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            elif(menuDrink == 3):
+                calcT = (350 + 170 + 100)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            elif(menuDrink == 4):
+                calcT = (350 + 170 + 65)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            else:
+                print("Nenhuma bebida escolhida")
+
+        elif(menuDessert == 4):
+            if(menuDrink == 1):
+                calcT = (350 + 200 + 20)
+                print("O valor todas das calorias são: \n", calcT,"kcal")
+            elif(menuDrink == 2):
+                calcT = (350 + 200 + 70)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            elif(menuDrink == 3):
+                calcT = (350 + 200 + 100)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            elif(menuDrink == 4):
+                calcT = (350 + 200 + 65)
+                print("O valor todas das calorias são: \n", calcT, "kcal")
+            else:
+                print("Nenhuma bebida escolhida")
+
+        else:
+            print("Nenhuma sobremesa escolhida")
+    else:
+        print("Nenhum prato escolhido")
+
+    return
+
+menuChange(menuPlate, menuDessert, menuDrink)
+"""
 # Questão 02 - PT2
-
+"""
 number = int(input("Digite um numero: "))
 
 def shNumber(number):
@@ -270,6 +569,7 @@ lowestValue(xA, xB, xC)
 # Questão 06 - PT2
 
 """
+
 booName = input("Digite o nome de usuario: ")
 booAge = int(input("Digite a idade: "))
 booConfirm = input("Você concorda com os termos de usuarios e confirma ser mairo de 18 ano(+18)? ")
