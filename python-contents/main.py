@@ -117,35 +117,40 @@ reverseName(xAutB, xAutA)
 # Parte 2 -
 
 # Questão 01 - PT1
-
+"""
 print("Escolha seu prato: ")
-print("""
+print(""""""
 1- Vegetariano
 2- Peixe
 3- Frango
 4- Carne
+"""
 """)
 menuPlate = int(input("Insira o numero do prato: "))
 print("Escolha sua Sobremesa: ")
 print("""
+"""
 1- Abacaxi
 2- Sorvete (diet)
 3- Mousse (diet)
 4- Mousse de Chocolate
+"""
 """)
 
 menuDessert = int(input("Insira o numero da Sobremesa: "))
 
 print("Escolha sua Bebida: ")
 print("""
+"""
 1- Chá
 2- Suco de Laranja
 3- Suco de Melão
 4- Refrigerante (diet)
+"""
 """)
 
 menuDrink = int(input("Insira o numero da bebida: "))
-"""
+
 def menuChange(menuPlate, menuDessert, menuDrink):
 
     if(menuPlate == 1):
@@ -629,5 +634,34 @@ sexualideSelect(inputSexuality)
 # Parte 03 -
 
 # Questão 01 - PT3
+"""
+print("Calculo de fibonnaci")
+terM = 15
 
+def fibonacciRange(terM):
+    ter1 = 0
+    ter2 = 1
+    print('{}, {}'.format(ter1, ter2), end='')
+    cont=3
+    while cont <= terM:
+        terF = ter1 + ter2
+        print(', {}'.format(terF), end='')
+        ter1 = ter2
+        ter2 = terF
+        cont += 1
+       
+    return
 
+fibonacciRange(terM)
+"""
+
+# Questão 02 - PT3
+
+print('-'*72)
+print("Insira dois numeros e encotraremos os valores multiplos de 13 entre eles")
+print('-'*72)
+
+multIntX = float(input("Insira o valor de X: "))
+multIntY = float(input("Insira o valor de Y: "))
+
+def rangeMulti(multIntX, multIntY):
