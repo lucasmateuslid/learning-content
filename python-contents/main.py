@@ -1,6 +1,6 @@
 import math
 
-
+"""
 ## Questão 01
 print("Questão 01 - Calculadora de Média ponderada de Notas!")
 print()
@@ -92,10 +92,28 @@ def xeyCalculator():
     return
 
 xeyCalculator()
+"""
 
+"""
 ## Questão 05
+xAutA = input("Escreva o Seu Nome: ")
+xAutB = input("Escreva o Seu Sobrenome: ")
 
+def reverseName(xAutB, xAutA):
 
+    AuxA = xAutB
+    xAutB = xAutA
+    xAutA = AuxA
+
+    print("Seja bem-vindo: ", xAutA, xAutB)
+
+    return
+
+reverseName(xAutB, xAutA)
+
+"""
+
+"""
 # Parte 2 -
 
 
@@ -113,8 +131,8 @@ def shNumber(number):
 
 shNumber(number)
 
-
-
+"""
+"""
 # Questão 03 - PT2
 
 dayNumber = int(input("Digite um numero de 1 a 7: "))
@@ -145,9 +163,9 @@ def dayNNumber(dayNumber):
     return
 
 dayNNumber(dayNumber)
-
+"""
 # Questão 04 - PT2
-
+"""
 vA = float(input("Digite um numero para A: "))
 vB = float(input("Digite um numero para B: "))
 vC = float(input("Digite um numero para C: "))
@@ -191,12 +209,13 @@ def rarestValue(vA,vB,vC):
 
     else:
         print("Os valores são iguais", vA, vB, vC)
-        
+
     return
 
 rarestValue(vA, vB, vC)
-
+"""
 # Questão 05 - PT2
+"""
 xA = float(input("Digite um numero para A: "))
 xB = float(input("Digite um numero para B: "))
 xC = float(input("Digite um numero para C: "))
@@ -246,9 +265,10 @@ def lowestValue(vA, vB, vC):
 
 
 lowestValue(xA, xB, xC)
-
+"""
 
 # Questão 06 - PT2
+
 """
 booName = input("Digite o nome de usuario: ")
 booAge = int(input("Digite a idade: "))
@@ -270,10 +290,10 @@ def booleanAge(booName, booAge, booConfirm):
     return
 
 booleanAge(booName, booAge, booConfirm)
-
 """
 
 # Questão 07 - PT2
+
 """
 print("Digite sua sexualidade, responda com as abreviações;")
 inputSexuality = input("Feminino(F) / Masculino(M): ")
@@ -303,6 +323,8 @@ def sexualideSelect(inputSexuality):
 
 sexualideSelect(inputSexuality)
 """
+
+
 
 # Parte 03 -
 
