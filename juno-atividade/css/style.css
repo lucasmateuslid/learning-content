@@ -1,0 +1,275 @@
+/* Declate Google Fonts Import*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* CSS Stylesheet*/
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+/* Barra Superior */
+.top-bar{
+  width: 100%;
+  height: 93px;
+  background-color: #7000FF;
+}
+
+.top-bar h3{
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  margin: auto;
+  line-height: 93px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* Left Side Bar */
+
+.left-side-bar {
+  width: 307px;
+  height: 931px;
+  background-color: #000;
+  color: #FFF;
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  float: left;
+
+}
+
+.left-side-bar img{
+  width: 139px;
+  height: 139px;
+  display: block;
+  padding-top: 3em;
+  padding-bottom: 1.5em;
+  margin: auto;
+}
+
+.left-side-bar h2{
+  font-size: 30px;
+  font-weight: 700;
+  display: block;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+  /*Left Side List - Global*/
+  .list-search{
+    margin-left: 45px;
+  }
+
+  .list-search ul li {
+    list-style-type: none;
+  }
+    /* List Inherit - Global List */
+
+    .list-search ul li.lists-types{
+      font-size: 22px;
+      font-weight: 500;
+      margin-bottom: 25px;
+    }
+    /* under list */
+    .under-list{
+      margin-top: 15px;
+      margin-left: 25px;
+      display: relative;
+    }
+
+    /*.under-list img{
+      width: 15px;
+      float: left;
+      left: 15px;
+      clear: both;
+    }*/
+    .under-list li {
+      line-height: 25px;
+      font-size: 17px;
+      font-weight: 300;
+    }
+
+     .under-list li a{
+       text-decoration: none;
+       color: #FFF;
+     }
+     .under-list li a:hover {
+       text-decoration: underline;
+       color: rgb(190, 61, 255);
+     }
+
+
+
+  /* Central Side */
+
+     /* Nav Center Side */
+      .central-tittle{
+        width: 1430px;
+        margin-left:  320px;
+
+        margin-bottom: 20px;
+        border-bottom: 2px solid #000;
+      }
+      .central-tittle p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 300;
+        margin: 20px 40px;
+        margin-top: 25px;
+      }
+
+  /* Lists Sides */
+
+      /* Left Side */
+        .list-side-left {
+          width: 554;
+          height: 724;
+          margin-left: 370px;
+
+        }
+
+        .list-side-left li{
+          list-style-type: none;
+          display: absolute;
+          border-bottom: 1px solid #545454;
+          max-width: 502px;
+          margin-bottom: 15px;
+          height: 180px;
+        }
+
+        .list-side-left li img{
+          max-width: 105px;
+          display: inline;
+        }
+
+        .list-side-left li h4 {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 25px;
+          font-weight: 800;
+          position: relative;
+          top: -140px;
+          left: 120px;
+        }
+
+        .list-side-left li p{
+          font-family: 'Montserrat', sans-serif;
+          font-size: 17px;
+          font-weight: 400;
+          position: relative;
+          top: -135px;
+          left: 120px;
+        }
+
+        .list-side-left li a{
+          font-family: 'Montserrat', sans-serif;
+          font-size: 17px;
+          font-weight: 800;
+          position: relative;
+          top: -135px;
+          left: 270px;
+          color: #FFF;
+          background-color: #7000FF;
+          padding: 8px 25px;
+          border-radius: 5px;
+          text-decoration: none;
+
+
+        }
+
+        .list-side-left li a:hover{
+          color: #7000FF;
+          background-color: #FFF;
+          border: 1px solid #7000FF;
+          transition: 170ms;
+        }
+
+        .list-side-left h5 {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 24px;
+          font-weight: 700;
+          position: relative;
+          top: -110px;
+          left: 120px;
+
+
+
+        }
+
+
+        /* Right Side */
+
+        .list-side-right {
+          width: 554;
+          height: 724;
+          margin-left: 370px;
+          display: absolute;
+
+        }
+
+        .list-side-right li{
+          list-style-type: none;
+          position: relative;
+          left: 620px;
+          top: -785px;
+          border-bottom: 1px solid #545454;
+          max-width: 502px;
+          margin-bottom: 15px;
+          height: 180px;
+        }
+
+        .list-side-right li img{
+          max-width: 105px;
+          display: inline;
+        }
+
+        .list-side-right li h4 {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 25px;
+          font-weight: 800;
+          position: relative;
+          top: -140px;
+          left: 120px;
+        }
+
+        .list-side-right li p{
+          font-family: 'Montserrat', sans-serif;
+          font-size: 17px;
+          font-weight: 400;
+          position: relative;
+          top: -135px;
+          left: 120px;
+        }
+
+        .list-side-right li a{
+          font-family: 'Montserrat', sans-serif;
+          font-size: 17px;
+          font-weight: 800;
+          position: relative;
+          top: -135px;
+          left: 270px;
+          color: #FFF;
+          background-color: #7000FF;
+          padding: 8px 25px;
+          border-radius: 5px;
+          text-decoration: none;
+
+
+        }
+        .list-side-right li a:hover{
+          color: #7000FF;
+          background-color: #FFF;
+          border: 1px solid #7000FF;
+        }
+        .list-side-right h5 {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 24px;
+          font-weight: 700;
+          position: relative;
+          top: -110px;
+          left: 120px;
+
+
+        }
