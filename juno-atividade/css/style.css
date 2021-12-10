@@ -11,8 +11,9 @@
 
 
 /* Barra Superior */
-.top-bar{
+.top-bar {
   width: 100%;
+  max-width: 100%;
   height: 93px;
   background-color: #7000FF;
 }
@@ -108,7 +109,7 @@
       .central-tittle{
         width: 1430px;
         margin-left:  320px;
-
+        max-width: 1210px;
         margin-bottom: 20px;
         border-bottom: 2px solid #000;
       }
@@ -218,6 +219,7 @@
           max-width: 502px;
           margin-bottom: 15px;
           height: 180px;
+          max-width: 480px;
         }
 
         .list-side-right li img{
@@ -248,7 +250,7 @@
           font-size: 17px;
           font-weight: 800;
           position: relative;
-          top: -135px;
+          top: -115px;
           left: 270px;
           color: #FFF;
           background-color: #7000FF;
@@ -268,8 +270,28 @@
           font-size: 24px;
           font-weight: 700;
           position: relative;
-          top: -110px;
+          top: 95px;
           left: 120px;
 
-
+          position: absolute;
         }
+
+  #main-reader{
+    margin-bottom: 0px;
+  }
+  #footer-signed {
+    max-width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+    background-color: #FD9097 ;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: -750px;
+  }
+ a {
+    font-weight: 800;
+    color: rgb(170, 85, 255);
+    text-decoration: none;
+  }
