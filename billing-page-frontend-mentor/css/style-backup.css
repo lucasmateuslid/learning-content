@@ -1,0 +1,198 @@
+/* Google Font API */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Reset site css status */
+*, ::after, ::before{
+ margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 1440px;
+  max-height: 2560px;
+  width: 100%;
+
+}
+
+html {
+  font-family: 'Red Hat Display', sans-serif;
+  scroll-behavior: smooth;
+
+}
+
+
+h1, h2, h3, h4, h5, ul, li, a, p{
+  margin: 0;
+}
+
+ul{
+  padding: 0;
+  list-style-type: none ;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* presets */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a{
+  color: hsl(228, 45%, 44%);
+}
+.paragraph-set {
+  font-size: 16px;
+}
+
+/* Variables */
+
+:root{
+  --card-width: 4rem;
+
+  /* Colors */
+    /* primary colors */
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+
+    /* Neutral */
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+
+  /* font and typo */
+  --body-font: 'Red Hat Display', sans-serif;
+  --biggest-font-size: 2.25rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+
+
+}
+
+
+
+
+
+/* main css start */
+
+body{
+      background: url(../images/pattern-background-desktop.svg) top center no-repeat hsl(225, 100%, 98%);
+
+}
+  .body-main {
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .body-main main {
+    margin: 7rem auto;
+    background: #fff url(../images/illustration-hero.svg) top center no-repeat;
+    background-size: 110%;
+    border-radius: 30px;
+    padding: 12rem 0.8rem;
+    text-align: center;
+    width: 35%;
+    box-shadow: 2px 3px 40px 0px rgba(87, 87, 87, 0.624);
+  }
+
+
+  .main-section {
+    margin-top: 25%;
+  }
+  .tittle-card h1 {
+    font-size: 25px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%) ;
+  }
+
+  .section-mid p.read-opt{
+    font-weight: 500;
+    color: hsl(224, 23%, 55%) ;
+    width: 80%;
+    text-align: center;
+    margin: 5% auto;
+
+  }
+
+  .section-plan {
+    background: url(../images/icon-music.svg) 5% 50% no-repeat;
+    background-color: hsl(225, 100%, 98%) ;
+    width: 70%;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    padding-right: 2.4rem;
+    padding-left: 2.4rem;
+    border-radius: 5px;
+    margin: 2% auto;
+    display: absolute;
+  }
+
+  .section-plan p {
+    font-weight: 700;
+    display: block;
+    color: hsl(223, 47%, 23%);
+    text-align: left;
+    margin-left: 25%;
+    margin-top: 2%;
+
+  }
+
+  span.plan-price {
+    color: hsl(224, 23%, 55%);
+    text-align: left;
+
+  }
+
+  .section-plan span a {
+    position: relative;
+    top: -15px;
+    right: -20%;
+    font-weight: 700;
+    font-size: 13px;
+  }
+  .section-plan span a:hover {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%) ;
+  }
+
+.section-order {
+  margin-top: 10%;
+}
+
+.section-order a.btn-confirm {
+  margin: 3% auto;
+  margin-top: 5%;
+  background: hsl(245, 75%, 52%) ;
+  padding: 3% 15%;
+  color:hsl(225, 100%, 98%);
+  display: block;
+  border-radius: 15px;
+  width: 75%;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 3px 5px 5px #c4c4c4;
+
+}
+.section-order a.btn-confirm:hover{
+  background-color:hsl(224, 23%, 55%);
+}
+
+.section-order a.btn-cancel {
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+  font-weight: 700;
+}
+.section-order a.btn-cancel:hover {
+  color: hsl(223, 47%, 23%);
+}
