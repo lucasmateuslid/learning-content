@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darksalmon;
+}
+
+h1{
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 93px;
+}
+
+p {
+    font-family: 'Roboto';
+    margin: auto;
+    padding-top: 1.5em;
+    font-size: 18px;
+    position: center;
+    text-align: center;
+    padding: 10px 20px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .polar{
+      width: 100%;
+      padding: 10px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  }
+
+  .block{
+    margin: 10px;
+    width: 45%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+
