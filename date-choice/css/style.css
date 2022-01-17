@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 1920px;
+  max-height: 1080px;
+}
+body{
+  background: #2e2e2e;
+}
+
+header{
+  width: 100%;
+  height: 5.5rem;
+  background-color: #000000;
+  box-shadow: 0px 5px 27px 14px #d0000064;
+}
+
+h1{
+  text-align: center;
+  color: red;
+  padding: 1.5rem;
+}
+
+main{
+}
